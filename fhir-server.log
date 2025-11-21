@@ -1,0 +1,241 @@
+2025-11-20 21:18:44.466 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:18:44.480 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:18:44.532 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:18:52.963 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-20 21:19:27.982 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:19:35.949 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient/123456 HTTP/1.1
+2025-11-20 21:19:37.143 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: PUT http://localhost:8080/fhir/Patient/123456 HTTP/1.1
+2025-11-20 21:19:38.108 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient/123456 HTTP/1.1
+2025-11-20 21:19:46.427 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:25:55.632 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:25:55.652 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:25:56.068 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-20 21:25:56.144 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-20 21:25:56.227 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-20 21:25:56.227 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-20 21:25:57.894 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-20 21:25:57.894 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2c6d564{/,null,AVAILABLE}
+2025-11-20 21:25:58.028 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@32889cfd{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-20 21:25:58.050 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@366f186e{STARTING}[11.0.20,sto=0] @8185ms
+2025-11-20 21:26:34.360 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:26:34.384 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:26:34.461 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:26:43.396 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-20 21:26:58.241 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:26:58.645 [qtp1666533838-44] ERROR c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+	at com.example.fhir.interceptor.SecurityInterceptor.authenticate(SecurityInterceptor.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invokeMethod(BaseInterceptorService.java:582)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invoke(BaseInterceptorService.java:552)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.doCallHooks(BaseInterceptorService.java:289)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:277)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:65)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:1115)
+	at ca.uhn.fhir.rest.server.RestfulServer.doGet(RestfulServer.java:424)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1938)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-20 21:26:58.959 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 500 Server Error in 712ms
+2025-11-20 21:26:59.566 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:26:59.595 [qtp1666533838-38] ERROR c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+	at com.example.fhir.interceptor.SecurityInterceptor.authenticate(SecurityInterceptor.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invokeMethod(BaseInterceptorService.java:582)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invoke(BaseInterceptorService.java:552)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.doCallHooks(BaseInterceptorService.java:289)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:277)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:65)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:1115)
+	at ca.uhn.fhir.rest.server.RestfulServer.doPost(RestfulServer.java:436)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1944)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:193)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-20 21:26:59.601 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 500 Server Error in 27ms
+2025-11-20 21:28:24.321 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:28:24.341 [qtp1666533838-44] ERROR c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.RequestDetails.getHeaders(String)" because "requestDetails" is null
+	at com.example.fhir.interceptor.SecurityInterceptor.authenticate(SecurityInterceptor.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invokeMethod(BaseInterceptorService.java:582)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService$HookInvoker.invoke(BaseInterceptorService.java:552)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.doCallHooks(BaseInterceptorService.java:289)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:277)
+	at ca.uhn.fhir.interceptor.executor.BaseInterceptorService.callHooks(BaseInterceptorService.java:65)
+	at ca.uhn.fhir.rest.server.RestfulServer.handleRequest(RestfulServer.java:1115)
+	at ca.uhn.fhir.rest.server.RestfulServer.doPost(RestfulServer.java:436)
+	at ca.uhn.fhir.rest.server.RestfulServer.service(RestfulServer.java:1944)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-20 21:28:24.343 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 500 Server Error in 22ms
+2025-11-20 21:31:41.617 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:31:41.625 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:31:41.962 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-20 21:31:42.036 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-20 21:31:42.111 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-20 21:31:42.113 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-20 21:31:43.457 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-20 21:31:43.464 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2c6d564{/,null,AVAILABLE}
+2025-11-20 21:31:43.578 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@32889cfd{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-20 21:31:43.597 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@366f186e{STARTING}[11.0.20,sto=0] @7642ms
+2025-11-20 21:31:55.142 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:31:55.153 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:31:55.180 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:32:00.414 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-20 21:32:17.140 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:32:17.582 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 439ms
+2025-11-20 21:32:26.865 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:32:26.877 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 12ms
+2025-11-20 21:35:17.285 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:35:17.292 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:35:17.319 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:35:22.830 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-20 21:35:27.327 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:35:27.398 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 68ms
+2025-11-20 21:35:45.928 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:35:45.940 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 9ms
+2025-11-20 21:40:38.650 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:40:38.650 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:40:38.882 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-20 21:40:38.940 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-20 21:40:38.996 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-20 21:40:38.997 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-20 21:40:39.859 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-20 21:40:39.859 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@609de006{/,null,AVAILABLE}
+2025-11-20 21:40:39.940 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4d07b55f{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-20 21:40:39.960 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@23ca9160{STARTING}[11.0.20,sto=0] @5082ms
+2025-11-20 21:40:49.000 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 21:40:49.018 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:40:49.032 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:40:52.355 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-20 21:40:56.345 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:40:56.543 [qtp1815887594-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:40:57] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:40:57.167 [qtp1815887594-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:40:57] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:40:57.224 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/f037f2b3-ea79-4f69-a310-39f8e31e653d) in 879ms
+2025-11-20 21:40:57.294 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:40:57.307 [qtp1815887594-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:40:57] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:40:57.324 [qtp1815887594-41] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:40:57] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:40:57.363 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 69ms
+2025-11-20 21:41:22.674 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:41:22.690 [qtp1815887594-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-20 21:41:22.727 [qtp1815887594-43] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 21:41:22.727 [qtp1815887594-43] INFO  c.uhn.fhir.validation.FhirValidator - Ph-schematron library not found on classpath, will not attempt to perform schematron validation
+2025-11-20 21:41:23.491 [qtp1815887594-43] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+[2025-11-20 21:41:23] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:23.534 [qtp1815887594-43] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:41:23] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:23.536 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Patient/Patient-1763692883529) in 862ms
+2025-11-20 21:41:27.672 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:41:27.704 [qtp1815887594-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:41:27] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:27.725 [qtp1815887594-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:41:27] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:27.731 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 59ms
+2025-11-20 21:41:42.516 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-20 21:41:42.524 [qtp1815887594-44] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:41:42] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:42.524 [qtp1815887594-44] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:41:42] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:42.528 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/f037f2b3-ea79-4f69-a310-39f8e31e653d) in 12ms
+2025-11-20 21:41:42.533 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-20 21:41:42.538 [qtp1815887594-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:41:42] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:42.540 [qtp1815887594-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:41:42] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:41:42.544 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 11ms
+2025-11-20 21:42:06.576 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-20 21:42:06.578 [qtp1815887594-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-20 21:42:06] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:42:06.578 [qtp1815887594-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-20 21:42:06] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-20 21:42:06.578 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 0ms
+2025-11-20 22:15:23.557 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 22:15:23.573 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 22:15:23.923 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-20 22:15:23.992 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-20 22:15:24.058 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-20 22:15:24.058 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-20 22:15:24.933 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-20 22:15:24.933 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5a05f3b{/,null,AVAILABLE}
+2025-11-20 22:15:25.048 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@645d51d0{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-20 22:15:25.061 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@629dd75d{STARTING}[11.0.20,sto=0] @6445ms
+2025-11-20 22:15:34.875 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-20 22:15:34.882 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-20 22:15:34.898 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]

@@ -1,1 +1,10 @@
-C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\TestDependencies.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\gui\PatientPanel.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\util\ValidationUtil.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\interceptor\SecurityInterceptor.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\storage\InMemoryStorage.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\provider\ObservationProvider.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\gui\ObservationPanel.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\provider\PatientProvider.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\interceptor\LoggingInterceptor.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\FhirServerMain.java
+C:\Users\sebas\OneDrive\Escritorio\proyecto redes\ImplementacionHL7\src\main\java\com\example\fhir\gui\FhirClientGUI.java
