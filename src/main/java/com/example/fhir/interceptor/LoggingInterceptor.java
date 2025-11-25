@@ -37,8 +37,17 @@ public class LoggingInterceptor {
             String method = requestDetails.getRequestType() != null ? requestDetails.getRequestType().name() : "UNKNOWN";
             String path = requestDetails.getRequestPath();
             RestOperationTypeEnum operationType = requestDetails.getRestOperationType();
+            
+            // Verificar headers de Authorization
+            java.util.List<String> authHeaders = requestDetails.getHeaders("Authorization");
+            String authHeaderInfo = authHeaders != null && !authHeaders.isEmpty() ? 
+                "PRESENT (" + authHeaders.size() + ")" : "MISSING";
+            
             String username = (String) requestDetails.getAttribute("USERNAME");
             String role = (String) requestDetails.getAttribute("ROLE");
+            
+            System.out.println("LoggingInterceptor: Request recibido - Method=" + method + 
+                ", Path=" + path + ", AuthHeader=" + authHeaderInfo);
             
             String logEntry = String.format(
                 "[%s] OPERACION=%s | METODO=%s | PATH=%s | USUARIO=%s | ROL=%s",

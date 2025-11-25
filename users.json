@@ -1,0 +1,22 @@
+[ {
+  "username" : "123456",
+  "password" : "123456",
+  "role" : "user",
+  "patientId" : null,
+  "email" : "kjasd",
+  "admin" : false
+}, {
+  "username" : "admin",
+  "password" : "admin123",
+  "role" : "admin",
+  "patientId" : null,
+  "email" : "admin@example.com",
+  "admin" : true
+}, {
+  "username" : "user",
+  "password" : "user123",
+  "role" : "user",
+  "patientId" : null,
+  "email" : "user@example.com",
+  "admin" : false
+} ]

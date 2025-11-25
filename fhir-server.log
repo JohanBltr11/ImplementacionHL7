@@ -239,3 +239,431 @@ java.lang.NullPointerException: Cannot invoke "ca.uhn.fhir.rest.api.server.Reque
 2025-11-20 22:15:34.875 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
 2025-11-20 22:15:34.882 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
 2025-11-20 22:15:34.898 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:33:49.919 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:33:49.935 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:33:50.240 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 18:33:50.319 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 18:33:50.387 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 18:33:50.388 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 18:33:51.335 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 18:33:51.335 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5a05f3b{/,null,AVAILABLE}
+2025-11-24 18:33:51.450 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@645d51d0{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 18:33:51.489 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@629dd75d{STARTING}[11.0.20,sto=0] @7395ms
+2025-11-24 18:34:00.520 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:34:00.526 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:34:00.548 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:36:57.928 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:36:57.928 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:36:58.189 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 18:36:58.245 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 18:36:58.295 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 18:36:58.296 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 18:36:59.114 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 18:36:59.114 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5a05f3b{/,null,AVAILABLE}
+2025-11-24 18:36:59.231 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@645d51d0{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 18:36:59.244 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@629dd75d{STARTING}[11.0.20,sto=0] @5350ms
+2025-11-24 18:37:07.149 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:37:07.149 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:37:07.178 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:37:14.661 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 18:37:34.421 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 18:37:34.598 [qtp1851270354-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:37:35] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:35.183 [qtp1851270354-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:37:35] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:35.249 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/2800051a-3197-4f62-837a-b72e84fe1117) in 828ms
+2025-11-24 18:37:35.348 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:37:35.378 [qtp1851270354-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:37:35.426 [qtp1851270354-42] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:37:35.430 [qtp1851270354-42] INFO  c.uhn.fhir.validation.FhirValidator - Ph-schematron library not found on classpath, will not attempt to perform schematron validation
+2025-11-24 18:37:36.284 [qtp1851270354-42] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+[2025-11-24 18:37:36] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:36.336 [qtp1851270354-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:37:36] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:36.342 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Patient/Patient-1764027456323) in 984ms
+2025-11-24 18:37:41.521 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: DELETE http://localhost:8080/fhir/Patient/Patient-1764027456323 HTTP/1.1
+2025-11-24 18:37:41.528 [qtp1851270354-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:37:41] RESPUESTA | PATH=Patient/Patient-1764027456323 | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:41.528 [qtp1851270354-43] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:37:41] RESPUESTA | PATH=Patient/Patient-1764027456323 | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:37:41.528 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 204 No Content (Patient/Patient-1764027456323) in 7ms
+2025-11-24 18:38:11.935 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:38:11.941 [qtp1851270354-44] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:38:11] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:38:11.941 [qtp1851270354-44] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:38:11] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:38:11.953 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Patient/Patient-1764027491941) in 18ms
+2025-11-24 18:38:22.289 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: DELETE http://localhost:8080/fhir/Patient/Patient-1764027491941 HTTP/1.1
+2025-11-24 18:38:22.289 [qtp1851270354-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:38:22] RESPUESTA | PATH=Patient/Patient-1764027491941 | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:38:22.289 [qtp1851270354-41] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:38:22] RESPUESTA | PATH=Patient/Patient-1764027491941 | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:38:22.289 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 204 No Content (Patient/Patient-1764027491941) in 0ms
+2025-11-24 18:50:38.928 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:50:38.936 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:50:39.401 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 18:50:39.466 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 18:50:39.572 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 18:50:39.588 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 18:50:40.957 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 18:50:40.960 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@47344f9d{/,null,AVAILABLE}
+2025-11-24 18:50:41.289 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@645d51d0{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 18:50:41.319 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@735fda07{STARTING}[11.0.20,sto=0] @7564ms
+2025-11-24 18:56:56.051 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:56:56.051 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:56:56.381 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 18:56:56.455 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 18:56:56.607 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 18:56:56.608 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 18:56:57.651 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 18:56:57.651 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@63c0fe98{/,null,AVAILABLE}
+2025-11-24 18:56:57.752 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4716810a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 18:56:57.761 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@347ac0cd{STARTING}[11.0.20,sto=0] @6227ms
+2025-11-24 18:57:48.908 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 18:57:48.919 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:57:48.988 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:57:49.294 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 18:58:17.916 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 18:58:18.104 [qtp269603358-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:58:18] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:18.774 [qtp269603358-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:58:18] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:18.830 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/0c825859-2b8f-4332-9bd1-ac018893e4ec) in 914ms
+2025-11-24 18:58:18.901 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient/123 HTTP/1.1
+2025-11-24 18:58:18.908 [qtp269603358-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:18.937 [qtp269603358-42] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException: Patient con ID '123' no encontrado
+2025-11-24 18:58:18.956 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 404 Not Found in 55ms
+2025-11-24 18:58:18.981 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:58:19.007 [qtp269603358-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:19.009 [qtp269603358-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:19.011 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 30ms
+2025-11-24 18:58:20.833 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:58:20.849 [qtp269603358-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:20.849 [qtp269603358-45] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:20.849 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 16ms
+2025-11-24 18:58:24.214 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:58:24.229 [qtp269603358-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:24.229 [qtp269603358-41] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:24.232 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 18ms
+2025-11-24 18:58:27.608 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 18:58:27.608 [qtp269603358-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:58:27] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:27.608 [qtp269603358-43] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:58:27] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:27.616 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/0c825859-2b8f-4332-9bd1-ac018893e4ec) in 8ms
+2025-11-24 18:58:27.620 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 18:58:27.627 [qtp269603358-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:27.628 [qtp269603358-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:27.631 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 9ms
+2025-11-24 18:58:38.239 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:58:38.250 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 18:58:54.394 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 18:58:54.404 [qtp269603358-40] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 18:58:54] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:54.404 [qtp269603358-40] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 18:58:54] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 18:58:54.412 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/0c825859-2b8f-4332-9bd1-ac018893e4ec) in 18ms
+2025-11-24 18:58:54.442 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:58:54.456 [qtp269603358-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:54.490 [qtp269603358-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:54.491 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 47ms
+2025-11-24 18:58:58.987 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:58:59.024 [qtp269603358-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:58:59.024 [qtp269603358-41] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:58:59.024 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 22ms
+2025-11-24 18:59:00.856 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient/123 HTTP/1.1
+2025-11-24 18:59:00.860 [qtp269603358-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:59:00.861 [qtp269603358-45] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException: Patient con ID '123' no encontrado
+2025-11-24 18:59:00.863 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 404 Not Found in 6ms
+2025-11-24 18:59:02.595 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: PUT http://localhost:8080/fhir/Patient/123 HTTP/1.1
+2025-11-24 18:59:02.613 [qtp269603358-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:59:02.617 [qtp269603358-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:59:02.619 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 23ms
+2025-11-24 18:59:04.455 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 18:59:04.461 [qtp269603358-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 18:59:04.461 [qtp269603358-45] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado
+2025-11-24 18:59:04.464 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 8ms
+2025-11-24 20:37:42.942 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:37:42.954 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:37:43.505 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:37:43.585 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:38:02.227 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:38:02.238 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:38:02.641 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:38:02.707 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:38:12.483 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:38:12.499 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:38:12.879 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:38:12.928 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:43:28.651 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:43:28.662 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:43:29.032 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:43:29.100 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:43:29.170 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 20:43:29.170 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 20:43:30.151 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 20:43:30.151 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@17af30a7{/,null,AVAILABLE}
+2025-11-24 20:43:30.246 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@23f0c227{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 20:43:30.252 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@2a82a213{STARTING}[11.0.20,sto=0] @5633ms
+2025-11-24 20:45:28.976 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:45:28.986 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:45:29.094 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:45:29.503 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 20:45:38.718 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 20:45:38.884 [qtp1690024682-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 20:45:39] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 20:45:39.467 [qtp1690024682-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 20:45:39] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 20:45:39.523 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/8b48b008-364c-4105-9e68-934fdbeab003) in 805ms
+2025-11-24 20:45:39.617 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 20:45:39.650 [qtp1690024682-44] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 20:45:39.696 [qtp1690024682-44] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 20:45:39.716 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 82ms
+2025-11-24 20:50:06.748 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:50:06.756 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:50:07.103 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:50:07.162 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:55:24.800 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:55:24.810 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:55:25.167 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 20:55:25.233 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 20:55:25.295 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 20:55:25.296 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 20:55:26.241 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 20:55:26.241 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@79838695{/,null,AVAILABLE}
+2025-11-24 20:55:26.364 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@49a96466{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 20:55:26.382 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@77f70722{STARTING}[11.0.20,sto=0] @6058ms
+2025-11-24 20:55:57.122 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 20:55:57.128 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:55:57.197 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 20:55:57.505 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 20:56:13.709 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 20:56:13.887 [qtp1706038895-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 20:56:14] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 20:56:14.507 [qtp1706038895-45] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 20:56:14] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 20:56:14.554 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/71c6e26f-8317-4510-928b-b1235b80d3d5) in 843ms
+2025-11-24 20:56:14.645 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 20:56:14.680 [qtp1706038895-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 20:56:14.723 [qtp1706038895-42] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 20:56:14.741 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 83ms
+2025-11-24 21:01:21.110 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:01:21.110 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:01:21.461 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 21:01:21.532 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 21:01:21.595 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 21:01:21.595 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 21:01:22.587 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 21:01:22.587 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3a4acad{/,null,AVAILABLE}
+2025-11-24 21:01:22.690 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@19654698{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 21:01:22.708 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@2244e9d9{STARTING}[11.0.20,sto=0] @5882ms
+2025-11-24 21:02:07.384 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:02:07.392 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:02:07.456 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:02:07.753 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 21:02:15.732 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:02:15.894 [qtp104639120-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:02:16] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 21:02:16.469 [qtp104639120-45] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:02:16] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 21:02:16.526 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/ecf88336-589c-44d0-972a-45f96f5d76f5) in 794ms
+2025-11-24 21:02:16.602 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:02:16.624 [qtp104639120-39] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:02:16.678 [qtp104639120-39] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:02:16.690 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 73ms
+2025-11-24 21:02:18.918 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:02:18.941 [qtp104639120-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:02:18.943 [qtp104639120-41] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:02:18.948 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 30ms
+2025-11-24 21:02:44.453 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:02:44.459 [qtp104639120-40] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:02:44.459 [qtp104639120-40] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:02:44.469 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 16ms
+2025-11-24 21:02:47.052 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:02:47.074 [qtp104639120-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:02:47.074 [qtp104639120-45] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:02:47.084 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 32ms
+2025-11-24 21:09:18.716 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:09:18.731 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:09:19.139 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 21:09:19.198 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 21:09:19.262 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 21:09:19.263 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 21:09:20.464 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 21:09:20.464 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@17af30a7{/,null,AVAILABLE}
+2025-11-24 21:09:20.590 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@23f0c227{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 21:09:20.606 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@2a82a213{STARTING}[11.0.20,sto=0] @7515ms
+2025-11-24 21:09:36.325 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:09:36.339 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:09:36.412 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:09:36.708 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 21:09:50.424 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:09:50.597 [qtp1690024682-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:09:51] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 21:09:51.192 [qtp1690024682-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:09:51] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=ANONYMOUS
+2025-11-24 21:09:51.255 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/3fa1bd44-5c72-4d36-b680-a6abc843a5e7) in 831ms
+2025-11-24 21:09:51.348 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:09:51.372 [qtp1690024682-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:09:51.408 [qtp1690024682-42] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:09:51.428 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 71ms
+2025-11-24 21:09:55.316 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: PUT http://localhost:8080/fhir/Patient/123 HTTP/1.1
+2025-11-24 21:09:55.339 [qtp1690024682-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:09:55.341 [qtp1690024682-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:09:55.341 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 25ms
+2025-11-24 21:09:57.988 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:09:57.992 [qtp1690024682-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:09:57.994 [qtp1690024682-43] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:09:57.994 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 6ms
+2025-11-24 21:10:01.945 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:10:01.972 [qtp1690024682-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:10:01.983 [qtp1690024682-48] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ForbiddenOperationException: Usuario no autenticado. El SecurityInterceptor no se ejecutó correctamente.
+2025-11-24 21:10:01.988 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 403 Forbidden in 42ms
+2025-11-24 21:22:32.682 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:22:32.695 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:22:33.067 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 21:22:33.132 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 21:22:33.192 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 21:22:33.192 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 21:22:34.230 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 21:22:34.234 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5985316a{/,null,AVAILABLE}
+2025-11-24 21:22:34.335 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@23f0c227{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 21:22:34.356 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@2a82a213{STARTING}[11.0.20,sto=0] @5952ms
+2025-11-24 21:23:18.002 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:23:18.018 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:23:18.098 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:23:18.440 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 21:23:35.758 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:23:35.924 [qtp1690024682-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:23:36] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:23:36.688 [qtp1690024682-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:23:36] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:23:36.757 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/b131ca29-2549-47a2-9db5-fdf34f224e36) in 996ms
+2025-11-24 21:23:36.842 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:23:36.869 [qtp1690024682-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:23:36.915 [qtp1690024682-42] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:23:36.915 [qtp1690024682-42] INFO  c.uhn.fhir.validation.FhirValidator - Ph-schematron library not found on classpath, will not attempt to perform schematron validation
+2025-11-24 21:23:37.777 [qtp1690024682-42] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+[2025-11-24 21:23:37] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:23:37.820 [qtp1690024682-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:23:37] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:23:37.827 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Patient/Patient-1764037417809) in 971ms
+2025-11-24 21:23:43.625 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:23:43.643 [qtp1690024682-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:23:43] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:23:43.667 [qtp1690024682-43] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:23:43] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:23:43.709 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 84ms
+2025-11-24 21:23:59.152 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:23:59.153 [qtp1690024682-44] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:23:59] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:23:59.153 [qtp1690024682-44] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:23:59] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:23:59.163 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/b131ca29-2549-47a2-9db5-fdf34f224e36) in 11ms
+2025-11-24 21:23:59.173 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:23:59.182 [qtp1690024682-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:23:59] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:23:59.188 [qtp1690024682-47] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:23:59] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:23:59.192 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 17ms
+2025-11-24 21:24:13.756 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:24:13.756 [qtp1690024682-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:24:13] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:24:13.756 [qtp1690024682-41] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:24:13] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:24:13.772 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 16ms
+2025-11-24 21:24:18.282 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:24:18.331 [qtp1690024682-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:24:18] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:24:18.331 [qtp1690024682-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:24:18] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:24:18.331 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 49ms
+2025-11-24 21:24:22.048 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:24:22.048 [qtp1690024682-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:24:22] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:24:22.061 [qtp1690024682-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:24:22] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:24:22.065 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 17ms
+2025-11-24 21:25:07.365 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:25:07.381 [qtp1690024682-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:07] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:07.391 [qtp1690024682-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:07] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:07.394 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Patient/Patient-1764037507388) in 29ms
+2025-11-24 21:25:09.832 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:25:09.860 [qtp1690024682-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:09] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:09.869 [qtp1690024682-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:09] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:09.869 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 37ms
+2025-11-24 21:25:18.114 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: PUT http://localhost:8080/fhir/Patient/1036977158 HTTP/1.1
+2025-11-24 21:25:18.114 [qtp1690024682-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:25:18.127 [qtp1690024682-47] WARN  c.u.f.r.s.i.ExceptionHandlingInterceptor - Failure during REST processing: ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException: Patient con ID '1036977158' no encontrado
+2025-11-24 21:25:18.206 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 404 Not Found in 92ms
+2025-11-24 21:25:21.192 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:25:21.226 [qtp1690024682-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:21] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:21.227 [qtp1690024682-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:21] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:21.227 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 35ms
+2025-11-24 21:25:28.759 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: PUT http://localhost:8080/fhir/Patient/Patient-1764037507388 HTTP/1.1
+2025-11-24 21:25:28.759 [qtp1690024682-43] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:28] RESPUESTA | PATH=Patient/Patient-1764037507388 | STATUS=null | USUARIO=admin
+2025-11-24 21:25:28.774 [qtp1690024682-43] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:28] RESPUESTA | PATH=Patient/Patient-1764037507388 | STATUS=null | USUARIO=admin
+2025-11-24 21:25:28.774 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (Patient/Patient-1764037507388) in 15ms
+2025-11-24 21:25:30.676 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:25:30.709 [qtp1690024682-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:30] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:30.709 [qtp1690024682-47] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:30] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:25:30.709 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 33ms
+2025-11-24 21:25:43.092 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:25:43.096 [qtp1690024682-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:43] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:43.162 [qtp1690024682-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:43] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:43.165 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Observation/Observation-1764037543161) in 72ms
+2025-11-24 21:25:44.464 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:25:44.483 [qtp1690024682-47] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:44] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:44.489 [qtp1690024682-47] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:44] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:44.491 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 26ms
+2025-11-24 21:25:55.320 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: POST http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:25:55.323 [qtp1690024682-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:55] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:55.334 [qtp1690024682-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:55] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:55.337 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 201 Created (Observation/Observation-1764037555333) in 17ms
+2025-11-24 21:25:56.520 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:25:56.525 [qtp1690024682-48] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:25:56] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:56.532 [qtp1690024682-48] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:25:56] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:25:56.535 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 14ms
+2025-11-24 21:39:51.365 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:39:51.374 [com.example.fhir.FhirServerMain.main()] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:39:51.802 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - jetty-11.0.20; built: 2024-01-29T21:04:22.394Z; git: 922f8dc188f7011e60d0361de585fd4ac4d63064; jvm 23+37-2369
+2025-11-24 21:39:51.869 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2025-11-24 21:39:51.939 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Initializing HAPI FHIR restful server running in R4 mode
+2025-11-24 21:39:51.939 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - Added 2 resource provider(s). Total 2
+2025-11-24 21:39:53.115 [com.example.fhir.FhirServerMain.main()] INFO  c.uhn.fhir.rest.server.RestfulServer - A FHIR has been lit on this server
+2025-11-24 21:39:53.117 [com.example.fhir.FhirServerMain.main()] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6719c0f4{/,null,AVAILABLE}
+2025-11-24 21:39:53.234 [com.example.fhir.FhirServerMain.main()] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3897fbf9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-11-24 21:39:53.256 [com.example.fhir.FhirServerMain.main()] INFO  org.eclipse.jetty.server.Server - Started Server@d7df5bd{STARTING}[11.0.20,sto=0] @7979ms
+2025-11-24 21:40:51.414 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:40:51.423 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:40:51.486 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:40:51.783 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 21:40:56.513 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:40:56.701 [qtp1451061321-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:40:56.747 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 231ms
+2025-11-24 21:41:10.128 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient/123456 HTTP/1.1
+2025-11-24 21:41:10.132 [qtp1451061321-41] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:41:10.135 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 7ms
+2025-11-24 21:41:34.464 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:41:34.475 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:41:37.134 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:41:37.137 [qtp1451061321-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:41:37] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:41:37.759 [qtp1451061321-42] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:41:37] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:41:37.797 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/22fc879f-7684-4f18-9f88-cb79238a3394) in 663ms
+2025-11-24 21:41:37.859 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:41:37.864 [qtp1451061321-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:41:37] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:41:37.888 [qtp1451061321-45] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:41:37] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:41:37.924 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 65ms
+2025-11-24 21:41:40.522 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:41:40.529 [qtp1451061321-39] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:41:40] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:41:40.532 [qtp1451061321-39] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:41:40] RESPUESTA | PATH=metadata | STATUS=null | USUARIO=admin
+2025-11-24 21:41:40.532 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK (CapabilityStatement/22fc879f-7684-4f18-9f88-cb79238a3394) in 10ms
+2025-11-24 21:41:40.539 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Observation HTTP/1.1
+2025-11-24 21:41:40.547 [qtp1451061321-45] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:41:40] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:41:40.553 [qtp1451061321-45] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:41:40] RESPUESTA | PATH=Observation | STATUS=null | USUARIO=admin
+2025-11-24 21:41:40.553 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 14ms
+2025-11-24 21:41:44.524 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/Patient HTTP/1.1
+2025-11-24 21:41:44.530 [qtp1451061321-46] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+[2025-11-24 21:41:44] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:41:44.538 [qtp1451061321-46] INFO  c.e.f.interceptor.LoggingInterceptor - [2025-11-24 21:41:44] RESPUESTA | PATH=Patient | STATUS=null | USUARIO=admin
+2025-11-24 21:41:44.543 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 200 OK in 16ms
+2025-11-24 21:42:19.944 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 7.2.0 - Rev 018a38bd45
+2025-11-24 21:42:19.944 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:42:20.005 [AWT-EventQueue-0] INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+2025-11-24 21:42:20.284 [AWT-EventQueue-0] INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Woodstox' version '6.4.0'
+2025-11-24 21:42:50.315 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client request: GET http://localhost:8080/fhir/metadata HTTP/1.1
+2025-11-24 21:42:50.361 [qtp1451061321-42] WARN  c.e.f.interceptor.LoggingInterceptor - RequestDetails es null en logRequest
+2025-11-24 21:42:50.377 [AWT-EventQueue-0] INFO  c.u.f.r.c.i.LoggingInterceptor - Client response: HTTP 401 Unauthorized in 62ms

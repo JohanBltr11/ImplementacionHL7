@@ -28,6 +28,13 @@ public class ObservationPanel extends JPanel {
     private JTextField unitField;
     private JTextArea resultArea;
     
+    private JButton createButton;
+    private JButton readButton;
+    private JButton updateButton;
+    private JButton deleteButton;
+    private JButton searchButton;
+    private JButton clearButton;
+    
     private String serverUrl;
     private String username;
     private String password;
@@ -94,27 +101,27 @@ public class ObservationPanel extends JPanel {
         
         // Botones
         JPanel buttonPanel = new JPanel(new FlowLayout());
-        JButton createButton = new JButton("Crear");
+        createButton = new JButton("Crear");
         createButton.addActionListener(e -> createObservation());
         buttonPanel.add(createButton);
         
-        JButton readButton = new JButton("Leer");
+        readButton = new JButton("Leer");
         readButton.addActionListener(e -> readObservation());
         buttonPanel.add(readButton);
         
-        JButton updateButton = new JButton("Actualizar");
+        updateButton = new JButton("Actualizar");
         updateButton.addActionListener(e -> updateObservation());
         buttonPanel.add(updateButton);
         
-        JButton deleteButton = new JButton("Eliminar");
+        deleteButton = new JButton("Eliminar");
         deleteButton.addActionListener(e -> deleteObservation());
         buttonPanel.add(deleteButton);
         
-        JButton searchButton = new JButton("Buscar Todas");
+        searchButton = new JButton("Buscar Todas");
         searchButton.addActionListener(e -> searchObservations());
         buttonPanel.add(searchButton);
         
-        JButton clearButton = new JButton("Limpiar");
+        clearButton = new JButton("Limpiar");
         clearButton.addActionListener(e -> clearFields());
         buttonPanel.add(clearButton);
         
@@ -196,6 +203,13 @@ public class ObservationPanel extends JPanel {
             
             // Fecha
             observation.setEffective(new DateTimeType(new java.util.Date()));
+            
+            // Establecer ID si el usuario lo ingresó
+            String userProvidedId = idField.getText().trim();
+            if (!userProvidedId.isEmpty()) {
+                observation.setId("Observation/" + userProvidedId);
+                parent.log("ObservationPanel: Usando ID proporcionado por usuario: " + userProvidedId);
+            }
             
             // Crear en servidor
             Observation created = (Observation) client.create().resource(observation).execute().getResource();
@@ -408,6 +422,18 @@ public class ObservationPanel extends JPanel {
         valueTypeComboBox.setSelectedIndex(0);
         unitField.setText("kg");
         resultArea.setText("");
+    }
+    
+    public void disableWriteOperations() {
+        if (createButton != null) createButton.setEnabled(false);
+        if (updateButton != null) updateButton.setEnabled(false);
+        if (deleteButton != null) deleteButton.setEnabled(false);
+    }
+    
+    public void enableWriteOperations() {
+        if (createButton != null) createButton.setEnabled(true);
+        if (updateButton != null) updateButton.setEnabled(true);
+        if (deleteButton != null) deleteButton.setEnabled(true);
     }
 }
 

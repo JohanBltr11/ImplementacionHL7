@@ -7,6 +7,7 @@ import com.example.fhir.interceptor.LoggingInterceptor;
 import com.example.fhir.interceptor.SecurityInterceptor;
 import com.example.fhir.provider.ObservationProvider;
 import com.example.fhir.provider.PatientProvider;
+import com.example.fhir.storage.UserStorage;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
@@ -63,6 +64,14 @@ public class FhirServerMain extends RestfulServer {
         System.out.println("==========================================");
         System.out.println("Puerto: " + PORT);
         System.out.println("Base URL: http://localhost:" + PORT + "/fhir/");
+        System.out.println("==========================================");
+        
+        // Inicializar UserStorage para asegurar que los usuarios por defecto existan
+        System.out.println("Inicializando sistema de usuarios...");
+        UserStorage userStorage = UserStorage.getInstance();
+        System.out.println("Sistema de usuarios inicializado. Usuarios disponibles:");
+        userStorage.getAllUsers().forEach(u -> 
+            System.out.println("  - " + u.getUsername() + " (rol: " + u.getRole() + ")"));
         System.out.println("==========================================");
         
         // Crear servidor Jetty
